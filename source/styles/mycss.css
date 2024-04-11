@@ -48,7 +48,7 @@ footer p {
 }
 @media (max-width: 800px) {
     .main img { 
-        float: top;
+        display: none;
 
     }
 } 
