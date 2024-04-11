@@ -47,8 +47,8 @@ footer p {
     color: #000000;
 }
 @media (max-width: 800px) {
-    .main img {
-        
+    .main img { 
+        float: top;
 
     }
 } 
