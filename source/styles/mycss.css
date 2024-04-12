@@ -20,7 +20,7 @@ width: 100px;
 .main>div>img {
     padding-top: 3px;
     float: right;
-    width: 45%;
+    width: 18%;
 }
 h4 {
     margin: 0;
@@ -46,12 +46,18 @@ footer p {
     text-align: center;
     color: #000000;
 }
-@media (max-width: 800px) {
-    .main img { 
-        display: none;
+@media (max-width: 1850px) {
+    .main>div>img {
+        width: 26%;
 
     }
 } 
+@media (max-width: 1300px) {
+    .main>div>img {
+        width: 40%;
+    }
+
+}
 
 
 
